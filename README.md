@@ -4,7 +4,7 @@
 
 
 <h1> Setting up Active Directory infrastructure using Azure. </h1>
-This tutorial outlines the creation of virtual machines and how to connect to them remotely using Azure Cloud Services.<br />
+This tutorial outlines preparing our infrastructure before deploying our Active Directory Environment. <br />
 
 
 
@@ -13,10 +13,12 @@ This tutorial outlines the creation of virtual machines and how to connect to th
 
 - Microsoft Azure (Virtual Machines)
 - Remote Desktop/Bastion
+- PowerShell (to test connection) 
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
+- 
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
