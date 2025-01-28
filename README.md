@@ -34,7 +34,7 @@ First, we must create a Resource Group; within this Group, we will create 2 Virt
 
 ![Image](https://github.com/user-attachments/assets/ac313bef-fcf0-4d0f-ba56-eae734aed644)
 
-After you are done creating both virtual machines now we have to change the IP address on our domain controller to be static ( by default Azure will assign you a dyncamic IP address) so we can use it as our DNS server. You can do this by navigating to the virtual machines and clicking on "dc1", then go to network settings and click on "network interface/IP configuration."
+After you are done creating both virtual machines now we have to change the IP address on our domain controller to be static ( by default Azure will assign you a dynamic IP address) so we can use it as our DNS server. You can do this by navigating to the virtual machines and clicking on "dc1", then go to network settings and click on "network interface/IP configuration."
 
 ![Image](https://github.com/user-attachments/assets/18f4a7d0-84d1-439b-aaeb-f1ed55d08716)
 
