@@ -29,12 +29,11 @@ This tutorial outlines preparing the Azure infrastructure before deploying our A
 
 <h2>Setup and Configuration</h2>
 
-<p> Before you get started you have to go to https://azure.microsoft.com/ and create a free account (note that you do need a credit or debit card to complete this process)
-After creating your account now you can go to Resource Groups (you can use the search bar at the top or find it under Azure Services)
-then click "Create"
+<p> First we have to create a Resource Group; within this Group, we will create 2 Virtual Machines. The first virtual machine will be a Windows 10 machine like the one in the previous guide and we will name it "client". If you don't know how to create a resource group and a virtual machine you can read the guide here
+[here](https://www.youtube.com/watch?v=uvTcd-VlM64)
 
 
------
+![Image](https://github.com/user-attachments/assets/ac313bef-fcf0-4d0f-ba56-eae734aed644)
 
 <h3> Pauhafu Luihwfuef Leuihfdweufheufheh </h3>
 
@@ -48,37 +47,37 @@ then click "Create"
 
 
 
-![003](https://github.com/user-attachments/assets/218abedc-eb1e-4046-8ede-248c2b3bc800) 
+
 
 
 <p></p>
 
 
-![004](https://github.com/user-attachments/assets/6ccabd16-6c79-420d-b3c3-a8e6d6348756)
 
-<p></p>
-
-![005](https://github.com/user-attachments/assets/fd42beb4-34c7-44be-998d-2986bdca93df)
-
-
-
-![006](https://github.com/user-attachments/assets/1260ce6d-17ef-4761-835a-5a433920003d)
-
-<p></p>
-
-![007](https://github.com/user-attachments/assets/d654ba9a-2613-4f51-a4bc-5a31220f3d41)
-
-
-
-![008](https://github.com/user-attachments/assets/ae1b271f-7500-42f5-90f6-196fb2485d41)
 
 <p></p>
 
 
-![009](https://github.com/user-attachments/assets/e0892674-9758-4979-bfd9-961173bc30cc)
+
+
+
+
 
 <p></p>
 
-![010](https://github.com/user-attachments/assets/eba1d847-5a20-4659-a922-c6539d1e220d)
+
+
+
+
+
+
+<p></p>
+
+
+
+
+<p></p>
+
+
 
 
