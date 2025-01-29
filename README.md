@@ -52,7 +52,10 @@ Now we have to log into our domain controller and disable the firewall so we can
 ![Image](https://github.com/user-attachments/assets/850848fe-2a30-40ee-8987-81ab994ad8a8)
 
 
-Now we will turn off the Dc1 Firewall to text the connection. You can type Windows key+R or type run in the search bar and you should get the Run pop-up window. Here you will type **wf.msc** and this should open the Firewall window for you. 
+Now we will turn off the Dc1 Firewall to test the connection. You can type Windows key+R or type run in the search bar and you should get the Run pop-up window. Here you will type **wf.msc** and this should open the Firewall window for you.
+Click on Windows Defender Firewall Properties and set the Firewall State drop-down to "off". Repeat this process in the Private Profile and Public Profile tabs. 
+
+
 
 
 
