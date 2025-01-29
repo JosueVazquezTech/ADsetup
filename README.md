@@ -43,7 +43,7 @@ After you are done creating both virtual machines now we have to change the IP a
 
 On the left side you see the settings tab, open it and go to IP configurations. Here you can see at the bottom that your IP is currently Dynamic. Just click on the IP address name and a window will open where you can change the allocation to Static and save it. 
 
-Now we have to log into our domain controller and disable the firewall so we can test the connection later. To do this just go to your Virtual Machines, click dc1, and under "connect" you can click "Download RDP file." This is the remote desktop protocol file used to connect remotely to other systems, most computers come with software capable of opening this kind of file. Go to your downloads folder and open the RDP file, it will prompt you to use the username and password you created earlier for the domain control account. Fill in the information and click ok. After you connect to the VM you should see the Windows Server Manager Dashboard, if you don't see this Dashboard and you can't find it on the search bar it probably means you installed the wrong OS and you have to delete the VM and make a new one with Windows Server. 
+Now we have to log into our domain controller and disable the firewall so we can test the connection later. To do this just go to your Virtual Machines, click dc1, and under "connect" you can click "Download RDP file." This is the remote desktop protocol file used to connect remotely to other systems, most computers come with software capable of opening this kind of file. Go to your downloads folder and open the RDP file, it will prompt you to use the username and password you created earlier for the domain control account. Fill in the information and click ok. After you connect to the VM you should see the Windows Server Manager Dashboard, if you don't see this Dashboard and you can't find it on the search bar it probably means you installed the wrong OS and you have to delete the VM and make a new one with Windows Server. If you see the Dashboard go to the next step. 
 
 ![Image](https://github.com/user-attachments/assets/51cde626-8698-4126-99d5-d1c14600271d)
 
@@ -52,28 +52,7 @@ Now we have to log into our domain controller and disable the firewall so we can
 ![Image](https://github.com/user-attachments/assets/850848fe-2a30-40ee-8987-81ab994ad8a8)
 
 
-
-
-
-<p></p>
-
-
------
-
-
-<p></p>
-
-
-
-
-
-
-<p></p>
-
-
-
-
-<p></p>
+Now we will turn off the Dc1 Firewall to text the connection. You can type Windows key+R or type run in the search bar and you should get the Run pop-up window. Here you will type **wf.msc** and this should open the Firewall window for you. 
 
 
 
@@ -81,7 +60,6 @@ Now we have to log into our domain controller and disable the firewall so we can
 
 
 
-<p></p>
 
 
 
@@ -89,14 +67,41 @@ Now we have to log into our domain controller and disable the firewall so we can
 
 
 
-<p></p>
 
 
 
 
 
 
-<p></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
