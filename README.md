@@ -72,6 +72,8 @@ The next step is to change the Client's DNS settings to Dc1's private IP address
 
 ![Image](https://github.com/user-attachments/assets/ec589820-97e0-43c4-8063-266fa0137747)
 
+The last step of the setup is to test the connection between our Client VM and our Domain Controller and make sure our DNS changes are working. To do this open Windows PowerShell (you can find it in the search bar). Here you will type the command **ping** followed by a space and your Dc1's Private IP. For me this will look like this: **ping 10.0.0.5**
+
 
 
 
