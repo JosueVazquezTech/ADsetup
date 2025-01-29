@@ -53,13 +53,30 @@ Now we have to log into our domain controller and disable the firewall so we can
 
 
 Now we will turn off the Dc1 Firewall to test the connection. You can type Windows key+R or type run in the search bar and you should get the Run pop-up window. Here you will type **wf.msc** and this should open the Firewall window for you.
-Click on Windows Defender Firewall Properties and set the Firewall State drop-down to "off". Repeat this process in the Private Profile and Public Profile tabs. 
+Click on Windows Defender Firewall Properties and set the Firewall State drop-down to "off". Repeat this process in the Private Profile and Public Profile tabs. After doing this click Apply and Ok then you can logout of Dc1. 
 
 ![Image](https://github.com/user-attachments/assets/c041619f-b9a6-40a0-90f3-771e12dfe6a1)
 
 ![Image](https://github.com/user-attachments/assets/292b8339-2486-467d-8cc9-d8c6ff54280c)
 
 ![Image](https://github.com/user-attachments/assets/932ed5f3-4414-40c5-9a2b-337ef2060e65)
+
+The next step is to change the Client's DNS settings to Dc1's private IP address. This will make it so that anytime the Client's VM needs to look up any domain it will look to our Domain Controller. To do this first, go back to your virtual machines in Azure and go to Dc1. Then go to Network>Network Settings and you will be able to see  Dc1's private IP address and copy it. Now go to the Client VM and again go to >Network>Network Settings and click Network Interface/IP Configuration. Here you can find the DNS server under settings and paste the Dc1 IP address in the DNS server box. For me, this is **10.0.0.5**. After doing this you have to restart the Client VM so the changes can take place. Go to virtual machines, right-click the Client VM, and click restart. Alternatively, you can check the box next to the VM and click Restart at the top. After doing this you can finally log into Client's VM to test the connection. Do this by going to Virtual Machines>Client>Connect and downloading the RDP file so you can open it and connect remotely to the Client VM. 
+
+
+![Image](https://github.com/user-attachments/assets/06e102dd-c0f3-4dc5-a133-ef63476ae1d9)
+
+![Image](https://github.com/user-attachments/assets/c7b56d89-e1ea-4b92-824e-d0044f9442d3)
+
+![Image](https://github.com/user-attachments/assets/4345717f-af75-406e-97c9-6b91069caf11)
+
+![Image](https://github.com/user-attachments/assets/ec589820-97e0-43c4-8063-266fa0137747)
+
+
+
+
+
+
 
 
 
