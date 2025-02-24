@@ -84,6 +84,14 @@ The last step of the setup is to test the connection between our Client VM and o
 
 Congratulations! You have successfully configured all the preliminary infrastructure and now you are ready to set up your Active Directory environment. 
 
+<h2> Enabling Remote Desktop Connection</h2>
+
+This will allow users from the same domain to access this computer remotely. To enable go to the settings on your computer and then go to Remote Desktop or type "remote desktop" on the Windows search. Then, under User accounts click on "Select users that can remotely access this PC". In the pop-up window click add. On the new window make sure that the domain we created is listed under "from this location" and then under "Enter the object names to select" type "Domain Users" and click Check Names. You should see a new window listing the users that can access the computer remotely, click OK and you are all set up. Now anyone from our domain can access this computer remotely!
+
+
+
+
+
 
 
 
