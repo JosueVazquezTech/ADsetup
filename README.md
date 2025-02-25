@@ -82,7 +82,7 @@ The last step of the setup is to test the connection between our Client VM and o
 ![Image](https://github.com/user-attachments/assets/7a4a4609-f535-482b-84ea-b78d43535361)
 
 
-Congratulations! You have successfully configured all the preliminary infrastructure and now you are ready to set up your Active Directory environment. 
+Congratulations! You have successfully configured all the preliminary infrastructure and now you are ready to deploy Active Directory. Follow the next steps of the guide [here](https://github.com/JosueVazquezTech/AD-Installation-and-testing)
 
 
 
